@@ -1,0 +1,233 @@
+/* write your styles here */
+marquee{
+    background-color: red;
+    font-size: x-large;
+
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4c4c4c;
+}
+ul{
+margin: 0;
+padding: 40px;
+list-style: none;
+}
+li{
+    padding-right: 20px;
+    display: inline;
+    font-size:2em
+}
+#intro{
+    background-image: url("./mockups/images/floral.png");
+    background-color: #f18d97;
+}
+
+#intro p,h1,button{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    align-items: center;
+   
+}
+#intro h1{
+    font-size: 4em;
+}
+#intro p{
+    border-top:2px solid black;
+    border-bottom: 2px solid black;
+
+}
+#intro button{
+    background-color: black;
+    color: #f18d97;
+    padding: 20px 50px;
+    border:transparent;
+    margin-top: 20px;
+    width:15%;
+    font-size: 1em
+
+}
+#intro:hover button{
+    background-color:rgb(253, 87, 87);
+    color: #000;
+}
+#serivecs{
+    background-image: url("./mockups/images/floral.png");
+    background-color: #efece7;
+}
+#serivecs h2,h3{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    align-items: center;
+    font-size: xx-large
+}
+.course{
+    display: flex;
+    justify-content:space-around;
+}
+#serivecs figure i{
+    background-color: transparent;
+    font-size: 7em;
+    color: #000;
+    margin: 20px 140px;
+    
+}
+ #serivecs figure:hover i{
+    color:#e78790;
+}
+ #serivecs figcaption p{
+    margin: auto;
+}
+#profile{
+    background-image: url("./mockups/images/floral.png");
+    background-color: #ddceb4;
+    
+}
+#profile h2,p{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    align-items: center;
+}
+#profile p{
+border-top:2px solid black;
+border-bottom: 2px solid black;
+}
+.project{
+    display: flex;
+    justify-content: center
+}
+.project figure{
+    display: flex;
+    justify-content: center
+}
+.project figure img{
+       width: 250px;
+       height: 200px;
+       border-radius: 40px;
+       padding: 1px ;
+}
+.project figure figcaption{
+    display: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.project:hover figcaption {
+    display:block;
+}
+#profile figure i{
+    font size:1em;
+    display:flex
+}
+.project figure{
+    position: relative;
+}
+.project figcaption{
+background-color: #050505cc;
+color: white;
+position: absolute;
+z-index: 1;
+left: 0%;
+display: none;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+top: 0;
+width:100%;
+margin: 15px;
+border-radius: 8px;
+height: 100%;
+padding-left:20px ;
+border-radius: 40px
+}
+.projects figcaption i{
+    border:1px solid white;
+    border-radius:40px;
+    padding:2px;
+    margin: auto;
+    display: inline-block;
+}
+.projects figcaption h3 {
+    margin-bottom:0px;
+}
+.projects figure:hover figcaption{
+    display:flex;
+    transition: 1s;}
+
+footer{
+    background-color: #000;
+    color: rgb(250, 245, 245);
+}
+footer:hover i{
+color: red;
+}
+#contact{
+    background-color: #afc7c6;
+    background-image: url("./mockups/images/floral.png");
+    margin-top: 0px;
+}
+.soical{
+    display: flex;
+    justify-content: center
+}
+.twi{
+    font-size: 4em ;
+    padding: 40px 40px;
+    border:1px solid black;
+    border-radius: 100%;
+    margin: 10px 10px;
+    padding: 20px 20px
+}
+.twi:hover{
+    color:rgb(252, 252, 246);
+    background-color: #000;
+    border:2px solid white
+    ;
+}
+
+#contact h2{
+    font-size:3em;
+    text-align: center;
+}
+#view-opt{
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    margin: 20px 40px;;
+    font-size:2em;
+    letter-spacing: 30px;
+}
+#view-opt i{
+    border:3px solid black;
+    border-radius: 500px 500px;
+    margin: 4px 4px;
+    padding-right: 4px;
+    background-color:transparent;
+    display: flex;
+    justify-items: center 
+}
+#view-opt:hover i{
+    background-color: #efece7;
+    color: #000;
+}
+#view-opt button{
+    border: 20px solid black;
+    padding: 3px 6px;
+    display:inline-block;
+
+}
+#view-opt:hover button{
+    background-color:transparent;
+    color: #000;
+
