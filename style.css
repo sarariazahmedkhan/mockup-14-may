@@ -107,75 +107,22 @@ border-bottom: 2px solid black;
     display: flex;
     justify-content: center
 }
-.project figure{
-    display: flex;
-    justify-content: center
-}
-.project figure img{
-       width: 250px;
-       height: 200px;
-       border-radius: 40px;
-       padding: 1px ;
-}
-.project figure figcaption{
-    display: none;
-    padding: 0;
-    margin: 0;
-    
-}
-.project:hover figcaption {
-    display:block;
-}
-#profile figure i{
-    font size:1em;
-    display:flex
-}
-.project figure{
-    position: relative;
-}
-.project figcaption{
-background-color: #050505cc;
-color: white;
-position: absolute;
-z-index: 1;
-left: 0%;
-display: none;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-top: 0;
-width:100%;
-margin: 15px;
-border-radius: 8px;
-height: 100%;
-padding-left:20px ;
-border-radius: 40px
-}
-.projects figcaption i{
-    border:1px solid white;
-    border-radius:40px;
-    padding:2px;
-    margin: auto;
-    display: inline-block;
-}
-.projects figcaption h3 {
-    margin-bottom:0px;
-}
-.projects figure:hover figcaption{
-    display:flex;
-    transition: 1s;}
 
 footer{
     background-color: #000;
     color: rgb(250, 245, 245);
+    font-size: 2em
 }
 footer:hover i{
 color: red;
 }
-#contact{
+#contact {
     background-color: #afc7c6;
     background-image: url("./mockups/images/floral.png");
     margin-top: 0px;
+}
+#contact h2{
+    margin: 0px;
 }
 .soical{
     display: flex;
@@ -200,34 +147,73 @@ color: red;
     font-size:3em;
     text-align: center;
 }
-#view-opt{
-    display: flex;
-    justify-content: center;
+
+#view-opt span:hover {
+    background-color: white;
+    color: #000;
+
+}
+
+#view-opt span {
+    border: 1px solid;
+    border-radius: 100%;
+    padding: 15px;
+    margin:0px 1px;
+    font-size: 1em
+
+}
+
+#view-opt i:hover {
+    color: black;
+}
+
+.project figure {
+    position: relative;
+}
+
+.project figure img{
+    width: 250px;
+    height: 200px;
     border-radius: 40px;
-    margin: 20px 40px;;
-    font-size:2em;
-    letter-spacing: 30px;
+    padding: 1px ;
 }
-#view-opt i{
-    border:3px solid black;
-    border-radius: 500px 500px;
-    margin: 4px 4px;
-    padding-right: 4px;
-    background-color:transparent;
-    display: flex;
-    justify-items: center 
+
+.project figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: -0.5;
+    transition: .3s ease;
+    background-color: black;
 }
-#view-opt:hover i{
-    background-color: #efece7;
-    color: #000;
+
+.project figure:hover figcaption {
+    opacity: 0.8;
+    border-radius:40px;
 }
-#view-opt button{
-    border: 20px solid black;
-    padding: 3px 6px;
-    display:inline-block;
+
+.project figure:hover {
+    top: 0px;
+    bottom:0px;
+    left:0px;
+    right:0px
+}
+
+#view-opt  {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 
 }
-#view-opt:hover button{
-    background-color:transparent;
-    color: #000;
 
+.project.fa-user:hover {
+    color: #eee;
+}
