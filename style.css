@@ -265,4 +265,43 @@ color: red;
     #intro button{
         padding: 1.5em 1em;
     }
-}
+    p{
+        font-size: 16px
+    }
+
+
+    /* galaxy S5 repoisive*/
+
+    @media only screen and (max-width: 360px)
+    {
+        ul{
+            padding: 80px 3px;
+        }
+        header img{
+            width: 36%;
+        }
+        #intro h1{
+         font-size: 2em
+        }
+        #intro p{
+            font-size: 1.53em;
+        }
+        #intro button{
+            padding: 20px 90px;
+            font-size: 1em
+        }
+        #serivecs p{
+            font-size: 2em
+            
+        }
+
+            .twi{
+                font-size: 2em ;
+                padding: 40px 50px;
+                border:1px solid black;
+                border-radius: 100%;
+                margin: 10px 10px;
+                padding: 20px 20px
+            }
+    
+        }       
